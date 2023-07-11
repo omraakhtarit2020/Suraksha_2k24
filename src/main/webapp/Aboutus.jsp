@@ -156,10 +156,10 @@ nav ul li a {
             <div class="left">LOGO</div>
 
             <ul>
-                <li><a href="#header">HOME</a></li>
-                <li><a href="#Background">ABOUT US</a></li>
-                <li><a href="#Skills">SAFETY RULES</a></li>
-                <li><a href="#Projects">CONTACT US</a></li>
+                <li><a href="index.jsp">HOME</a></li>
+                <li><a href="Aboutus.jsp">ABOUT US</a></li>
+                <li><a href="#Skills">SAFETY TIPS</a></li>
+                <li><a href="Contactus.jsp">CONTACT US</a></li>
                 <li><a href="#contact">LOGIN</a></li>
 
             </ul>

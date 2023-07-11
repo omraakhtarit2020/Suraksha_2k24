@@ -97,7 +97,7 @@ form btn2 {
     padding: 25px 0;
     background: black;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 6.8rem;
  
  }
  #msg{
@@ -115,10 +115,10 @@ form btn2 {
             <div class="left">LOGO</div>
 
             <ul>
-                <li><a href="#header">HOME</a></li>
-                <li><a href="#Background">ABOUT US</a></li>
-                <li><a href="#Skills">SAFETY RULES</a></li>
-                <li><a href="#Projects">CONTACT US</a></li>
+                <li><a href="index.jsp">HOME</a></li>
+                <li><a href="Aboutus.jsp">ABOUT US</a></li>
+                <li><a href="#Skills">SAFETY TIPS</a></li>
+                <li><a href="Contactus.jsp">CONTACT US</a></li>
                 <li><a href="#contact">LOGIN</a></li>
 
             </ul>
