@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Suraksha</title>
+
 <style>
 <%@ include file="contactusstyle.css" %>
 <%@ include file="sty.css" %>
@@ -42,7 +43,8 @@
         </div>
 
         <footer>
-            <p>All rights reserved. Copyright.IT-Diots </p>
+            <p>All rights reserved. Copyright © IT-Diots<i class="fa-solid fa-heart"></i> </p>
         </footer>
+        <script src="https://kit.fontawesome.com/bae9dab6c7.js" crossorigin="anonymous"></script>
 </body>
 </html>

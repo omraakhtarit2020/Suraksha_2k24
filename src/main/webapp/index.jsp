@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>SafetyPin</title>
+<title>Suraksha</title>
 <link rel="shortcut icon" type="image/jpg" href="./images/enough-removebg-preview.png" />
 
 <style>
 <%@ include file="sty.css"%>
- .wrapper {
+.wrapper {
 	display: flex;
 	width: 100%;
 	height: 100vh;
@@ -77,6 +77,7 @@ p {
     height: 29em;
     
 }
+ 
 </style>
 </head>
 <body>
@@ -94,7 +95,9 @@ p {
 					<img src="images/enough-removebg-preview.png">
 				</div>
 		</div>
+		
 	</div>
+
 
 </body>
 </html>

@@ -6,66 +6,23 @@
 <meta charset="ISO-8859-1">
 <title>Suraksha</title>
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background: white;
-    color: #F9F5F6;
-}
+<%@ include file="sty.css"%>
 
 /* h1{
     background-color: aqua;
  } */
 .sub-title {
 text-align: center;
-    color: black;
+    color: #3d535f;
 }
 
-.container {
+.About_us_contatiner {
     padding: 10px 10%;
 
 
 }
 
-.nav_bar {
-    background: black;
-}
 
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80px;
-    flex-wrap: wrap;
-}
-
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 23px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    position: relative
-}
 
 #skills {
     padding: 30px 0;
@@ -74,7 +31,7 @@ nav ul li a {
 
 .serives-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -99,33 +56,39 @@ nav ul li a {
     margin-bottom: 15px;
 }
 
-.serives-list div a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
+.serives-list div p {
+   
+   
+    font-size: 15px;
+	font-weight:400;   
 
+}
+.serives-list div li{
+   
+   
+    font-size: 15px;
+	font-weight:400;   
+
+}
 .mission:hover {
-    background: black;
-    color: #fff;
+    background: #EEEEEE;
+    color: #7f00ff;
     border: 1px solid #ECF8F9;
     transform: translateY(-10px);
     transition: all 1s ease;
 }
 
 .vision:hover {
-    background: black;
-    color: #fff;
+    background: #EEEEEE;
+    color: #7f00ff;
     border: 1px solid #ECF8F9;
     transform: translateY(-10px);
     transition: all 1s ease;
 }
 
 .team:hover {
-    background: black;
-    color: #fff;
+    background: #EEEEEE;
+    color: #7f00ff;
     border: 1px solid #ECF8F9;
     transform: translateY(-10px);
     transition: all 1s ease;
@@ -134,16 +97,18 @@ nav ul li a {
 /* .serives-list div :hover {
     background: #8696FE;
     transform: translateY(-10px); */
-    .copyright {
+   .copyright {
         width: 100%;
         text-align: center;
-        padding: 25px 0;
-        background: black;
+        padding: 15px 0;
+        background: #3d535f;
         font-weight: 300;
         margin-top: 20px;
+        color:white;
      
      }
-     p{
+     
+     .copyright p{
         padding: 1px;
         margin: 5px;
      }
@@ -152,23 +117,11 @@ nav ul li a {
 </head>
 <body>
  <div id="header">
-        <nav class="nav_bar">
-            <div class="left">LOGO</div>
-
-            <ul>
-                <li><a href="index.jsp">HOME</a></li>
-                <li><a href="Aboutus.jsp">ABOUT US</a></li>
-                <li><a href="#Skills">SAFETY TIPS</a></li>
-                <li><a href="Contactus.jsp">CONTACT US</a></li>
-                <li><a href="#contact">LOGIN</a></li>
-
-            </ul>
-
-        </nav>
+       <%@ include file="nav.jsp" %>
     </div>
     <main>
         <div id="Skills">
-            <div class="container">
+            <div class="About_us_contatiner">
 
 
                 <h1 class="sub-title">ABOUT US</h1>
@@ -180,7 +133,7 @@ nav ul li a {
                             comprehensive safety app that promotes personal security, emergency preparedness, and timely
                             assistance. We strive to leverage technology to connect people, enhance situational
                             awareness, and foster a culture of vigilance, ultimately making the world a safer place</p>
-                        <a href="#"></a>
+                      
 
                     </div>
                     <div class="vision">
@@ -195,7 +148,7 @@ nav ul li a {
                             protection. Our vision extends beyond merely responding to emergencies; we are committed to
                             proactive prevention, empowering users to take control of their safety in all aspects of
                             life.</p>
-                        <a href="#"></a>
+                       
                     </div>
                     <div class="team">
                         <i class="fa-sharp fa-solid fa-people-group"></i>
@@ -212,11 +165,12 @@ nav ul li a {
                         <p>
                         All four of us are  final year b.tech student of TECHNO INTERNATIONAL NEWTOWN.
                         </p>
-                        <a href="#"></a>
+                       
                     </div>
                 </div>
             </div>
         </div>
 <%@ include file="footer.jsp" %>
+<script src="https://kit.fontawesome.com/bae9dab6c7.js" crossorigin="anonymous"></script>
 </body>
 </html>
