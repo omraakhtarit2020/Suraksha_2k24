@@ -4,11 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Safety Tips</title>
+
+<title>Suraksha</title>
 <!--link rel="stylesheet" type="text/css" href="style.css"-->
     <style>
     <%@ include file="sty.css"%>
-        .h2 {
+       .h2 {
             justify-content: space-around;
             text-align: center;
             width: auto;
@@ -278,7 +279,8 @@
             <%@ include file="nav.jsp" %>
         </header>
     <div class="h2">
-        <h1> Safety Tips <span><i class="fa-solid fa-square-info"></i></span> </h1>
+    
+        <h1> Safety Tips <i class="fa-solid fa-square-info"></i></h1>
     </div>
     <div id="box">
 
