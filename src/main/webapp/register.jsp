@@ -67,7 +67,7 @@ nav{
 </head>
 <body>
 <%@ include file="nav.jsp"%>
-<section class="h-100 h-custom gradient-custom-2">
+<section class=" h-custom gradient-custom-2">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12">
@@ -251,8 +251,9 @@ nav{
                 </div>
             </div>
         </div>
+       
     </section>
-<%@ include file="footer.jsp" %>
+ <%@ include file="footer.jsp" %>
 <script src="https://kit.fontawesome.com/bae9dab6c7.js" crossorigin="anonymous"></script>
 </body>
 </html>
