@@ -22,10 +22,10 @@
             text-align: center;
             color: #3d535f;
         }
-        span{
+        /*span{
         	color:blueviolet;
         	font-weight:bold;
-        }
+        }*/
 
         * {
             padding: 0;
@@ -278,7 +278,7 @@
             <%@ include file="nav.jsp" %>
         </header>
     <div class="h2">
-        <h1><span>#</span>Safety Tips<span>#</span></h1>
+        <h1> Safety Tips <span><i class="fa-solid fa-square-info"></i></span> </h1>
     </div>
     <div id="box">
 
@@ -304,8 +304,8 @@
     </div>
     <script src="safetyTip.js"></script>
     <footer>
-            <p>All rights reserved. Copyright © IT-Diots<i class="fa-solid fa-heart"></i> </p>
+            <p>All rights reserved. Copyright © IT-Diots <i class="fa-solid fa-heart"></i> </p>
     </footer>
-
+	<script src="https://kit.fontawesome.com/bae9dab6c7.js" crossorigin="anonymous"></script>
 </body>
 </html>
