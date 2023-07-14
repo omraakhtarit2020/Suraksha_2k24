@@ -33,6 +33,7 @@ nav{
 }
 
 .logo{
+	font-family: "Times New Roman",Times,serif;
 	display: flex;
 	font-size: 40px;
 	font-weight: 800;
@@ -44,6 +45,7 @@ nav{
 
 .nav-items{
 	display: flex;
+	font-family: "Times New Roman",Times,serif;
 }
 
 .nav-items li{

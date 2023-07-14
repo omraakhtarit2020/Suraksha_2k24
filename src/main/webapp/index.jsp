@@ -8,7 +8,7 @@
 <link rel="shortcut icon" type="image/jpg" href="./images/enough-removebg-preview.png" />
 
 <style>
-<%@ include file="sty.css"%>
+
 .wrapper {
 	display: flex;
 	width: 100%;
@@ -77,7 +77,7 @@ p {
     height: 29em;
     
 }
- 
+ <%@ include file="sty.css"%>
 </style>
 </head>
 <body>
