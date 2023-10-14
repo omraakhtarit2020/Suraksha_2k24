@@ -61,6 +61,7 @@ nav {
 	text-decoration: none;
 	text-transform: capitalize;
 }
+/* This is a single-line comment */
 
 .nav-items li:hover a {
 	color: #7f00ff;
