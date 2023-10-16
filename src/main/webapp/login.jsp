@@ -61,7 +61,6 @@ nav {
 	text-decoration: none;
 	text-transform: capitalize;
 }
-/* This is a single-line comment */
 
 .nav-items li:hover a {
 	color: #7f00ff;
@@ -84,7 +83,7 @@ nav {
             <!--------------------------- Left Box ----------------------------->
 
             <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box"
-                style="background: #ffffff;">
+                style="background: #fff;">
                 <div class="featured-image mb-3">
                     <img src="images/1.png" alt="Suraksha" class="img-fluid" style="width: 250px;">
                 </div>
